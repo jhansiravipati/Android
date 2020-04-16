@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="396dp"
+        android:layout_height="271dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/love1"
+        android:contentDescription="@null"/>
+
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="409dp"
+        android:layout_height="295dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/i1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hate1"
+        android:contentDescription="@null" />
+
+    <Button
+        android:id="@+id/loveb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+ID/Button"
+        app:layout_constraintBottom_toBottomOf="@+id/i1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <Button
+        android:id="@+id/hateb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+ID/Button"
+        app:layout_constraintBottom_toBottomOf="@+id/i2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/i1"
+        app:layout_constraintVertical_bias="0.805" />
+</androidx.constraintlayout.widget.ConstraintLayout>
