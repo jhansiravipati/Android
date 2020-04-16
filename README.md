@@ -1,6 +1,6 @@
 # Android
 
-####This is how i'm learning Androiod
+This is how i'm learning Android
 
 
 Week 1 -
