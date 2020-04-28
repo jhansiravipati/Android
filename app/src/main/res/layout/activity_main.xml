@@ -8,39 +8,42 @@
 
     <ImageView
         android:id="@+id/i1"
-        android:layout_width="396dp"
-        android:layout_height="271dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/love1"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/love1" />
 
 
     <ImageView
         android:id="@+id/i2"
-        android:layout_width="409dp"
-        android:layout_height="295dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/i1"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/hate1"
-        android:contentDescription="@null" />
+        app:srcCompat="@drawable/hate1" />
 
     <Button
         android:id="@+id/loveb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="600dp"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="16dp"
         android:text="@+ID/Button"
         app:layout_constraintBottom_toBottomOf="@+id/i1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintEnd_toStartOf="@+id/i1"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintTop_toTopOf="@+id/i1"
+        app:layout_constraintVertical_bias="0.906" />
 
     <Button
         android:id="@+id/hateb"
